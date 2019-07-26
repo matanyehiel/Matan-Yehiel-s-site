@@ -1,0 +1,171 @@
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#bgLogo{
+    background-image: url("../images/header.jpg");
+    background-image: url("../images/lockerbg.jpeg");
+    background-image: url("../images/compbg.jpg");
+
+    background: linear-gradient(110deg, #0b3e6b 60%, #639cce 60%);
+
+    background-size: cover;
+    min-height: 200px;
+    padding: 40px;
+    border-bottom: 2px solid rgb(0, 64, 201);
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.navItem{
+    height: 120px;
+    width: 120px;
+    transition: transform 300ms;
+    padding: 4px;
+}
+
+.navItem:hover{
+    transform: scale(1.1 , 1.10);
+    transition: transform 300ms;
+    box-shadow: -1px -1px 30px #12558e;
+}
+
+
+#us{
+    background-image: url("../images/header.jpg");
+    height: 500px;
+}
+
+
+body, html {
+    direction: rtl;
+  }
+
+  .show-dates {
+    position: relative;
+    padding: 5em;
+    text-align: center;
+    min-height: 400px;
+    transition: all .6s;
+
+  }
+  
+  .show-dates::before {
+    opacity: .9;
+    filter: blur(8px);
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    background-image: url("../images/compbg.jpg");
+    background-position: 50% 5%;
+    background-size: cover;
+    transition: all .6s;
+  }
+  
+  .show-dates:hover::before {
+    opacity: 1;
+    filter: blur(1px);
+  }
+
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: relative;
+  }
+
+  .show-dates:hover {
+      display: inline-block;
+    }
+
+  #me{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;    
+}
+
+#phoneNum{
+  font-size: 36px;
+  color: #639cce;
+  text-decoration: none;
+}
+
+#phoneNum:hover{
+  color: #75addf;
+  text-shadow: 1px 1px 4px #639cce;
+}
+
+#iconLogo{
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  display: none;
+  z-index: 100;
+}
+
+#iconContact{
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display: none;
+  z-index: 100;
+
+}
+
+.iconImg{
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+
+
+
+
+
+
+.imge{
+  transition-duration: 300ms;
+
+}
+
+.imge:hover{
+  transform: scale(1.05 , 1.05);
+  transition-duration: 300ms;
+}
+
+.hr3{
+  width: 25%;
+  background-color: aqua;
+  height: 4px;
+  margin: 0 auto;
+}
+
+#every{
+  background-image: url("../images/bg.png");
+  text-align: center;
+  direction: rtl;
+  padding: 50px;
+  color: #fff;
+  
+}
+#every h2{
+  margin-bottom: 40px;
+  text-shadow: 1px 1px 10px white;
+}
+
+#every h3{
+  padding-bottom: 16px;
+}
